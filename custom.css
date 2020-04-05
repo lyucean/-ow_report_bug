@@ -1,10 +1,38 @@
 
 body {
-    background-image: url("img/background-image.png")
+    /*background-image: url("img/background-image.png")*/
+    background-color: #f5f6f8;
+}
+
+h3 {
+    margin-block-start: .5em;
+    margin-block-end: .7em;
 }
 
 #top {
     max-width: 1440px;
+}
+
+.paper {
+    border: none;
+    max-width: 1000px;
+    min-width: 200px;
+    width: 100%;
+    background-color: #FFF;
+    margin: 10px auto 0;
+    position: relative;
+    display: block;
+    padding: 10px 60px 20px 60px;
+    clear: both;
+    box-sizing: border-box;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+.title h1 {
+    font-size: 3rem;
 }
 
 .demo .row .col {
@@ -58,4 +86,29 @@ img.no-responsive {
 
 .collapsible.full-width {
     width: 100%;
+}
+
+.informer img {
+    width: 80px;
+    height: 15px;
+    border: 0 !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .paper {
+        padding: 10px 20px 10px 20px;
+    }
+
+    .col {
+        padding: .2rem 1rem;
+    }
+
+    .title h1 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
 }
