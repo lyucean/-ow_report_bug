@@ -78,4 +78,15 @@ h3 {
     h3 {
         font-size: 24px;
     }
+
+    .to-top {
+        padding: 0;
+        right: 0.5em;
+        bottom: 3em;
+    }
+
+    .to-top .paper-btn {
+        box-shadow: -1px 5px 20px 5px rgba(0, 0, 0, .2);
+        padding: 0.7em 1em 0.4em 0.9em;
+    }
 }
