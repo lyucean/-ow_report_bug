@@ -3,9 +3,10 @@ body {
     background-color: #f5f6f8;
 }
 
-h3 {
+h2 {
     margin-block-start: .5em;
     margin-block-end: .7em;
+    font-size: 2rem;
 }
 
 #top {
@@ -74,7 +75,7 @@ h3 {
         font-size: 36px;
     }
 
-    h3 {
+    h2 {
         font-size: 24px;
     }
 
