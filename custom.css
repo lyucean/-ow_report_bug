@@ -9,6 +9,14 @@ h2 {
     font-size: 2rem;
 }
 
+a:visited {
+    color: #014689;
+}
+
+a {
+    color: #0071de;
+}
+
 #top {
     max-width: 1440px;
 }
